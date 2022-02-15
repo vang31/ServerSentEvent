@@ -1,0 +1,65 @@
+<!--<!DOCTYPE html>-->
+<!--<html>-->
+<!--<head>-->
+<!--    <title>Spring SSE Push Notifications</title>-->
+<!--    <h1>Getting server updates</h1>-->
+<!--        <div id="result"></div>-->
+
+<!--        <script>-->
+<!--            if(typeof(EventSource) !== "undefined") {-->
+<!--            var source = new EventSource("demo_sse.php");-->
+<!--            source.onmessage = function(event) {-->
+<!--            document.getElementById("result").innerHTML += event.data + "<br>";-->
+<!--        };-->
+<!--        } else {-->
+<!--            document.getElementById("result").innerHTML = "Sorry, your browser does not support server-sent events...";-->
+<!--        }-->
+
+<!--        // function initialize() {-->
+<!--        //     const eventSource = new EventSource('http://localhost:8080/notification');-->
+<!--        //     eventSource.onmessage = e => {-->
+<!--        //         const msg = e.data;-->
+<!--        //         document.getElementById("greet").innerHTML = msg;-->
+<!--        //     };-->
+<!--        //     eventSource.onopen = e => console.log('open');-->
+<!--        //     eventSource.onerror = e => {-->
+<!--        //         if (e.readyState == EventSource.CLOSED) {-->
+<!--        //             console.log('close');-->
+<!--        //         }-->
+<!--        //         else {-->
+<!--        //             console.log(e);-->
+<!--        //         }-->
+<!--        //     };-->
+<!--        //     eventSource.addEventListener('second', function(e) {-->
+<!--        //         console.log('second', e.data);-->
+<!--        //     }, false);-->
+<!--        // }-->
+<!--        // window.onload = initialize;-->
+<!--    </script>-->
+<!--</head>-->
+<!--<body>-->
+<!--<div id="greet"></div>-->
+<!--</body>-->
+<!--</html>-->
+
+<!--<!DOCTYPE html>-->
+<!--<html>-->
+<!--<body>-->
+
+<!--<h1>Getting server updates</h1>-->
+<!--<div id="result"></div>-->
+
+<!--<script>-->
+<!--    if(typeof(EventSource) !== "undefined") {-->
+<!--        var source = new EventSource("demo_sse.php");-->
+<!--        source.onmessage = function(event) {-->
+<!--            document.getElementById("result").innerHTML += event.data + "<br>";-->
+<!--        };-->
+<!--    } else {-->
+<!--        document.getElementById("result").innerHTML = "Sorry, your browser does not support server-sent events...";-->
+<!--    }-->
+<!--</script>-->
+
+<!--</body>-->
+<!--</html>-->
+
